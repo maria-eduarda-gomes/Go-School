@@ -28,10 +28,10 @@
       background-color: #1B263B;
     }
     .logo {
-      max-width: 120px;
+      max-width: 300px;
       height: auto;
       display: block;
-      margin: 0 auto 10px;
+      margin: 0 auto 50px;
     }
     .card-body {
       width: 100%;
@@ -68,6 +68,7 @@
       const pass = document.getElementById('password').value.trim();
 
       if (user && pass) {
+       
         window.location.href = "index.html";
       } else {
         alert("Por favor, preencha todos os campos!");
